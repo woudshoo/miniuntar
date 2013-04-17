@@ -1,9 +1,4 @@
-;;;; wo-minitar.lisp
-
-(in-package #:wo-minitar)
-
-;;; "wo-minitar" goes here. Hacks and glory await!
-
+(in-package #:miniuntar)
 
 (defun make-block-buffer ()
   (make-array 512 :element-type '(unsigned-byte 8) :initial-element 0))
